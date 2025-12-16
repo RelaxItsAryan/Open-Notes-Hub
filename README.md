@@ -1,6 +1,6 @@
 # 📚 Open Notes Hub
 
-# Website Link - [opennotes-hub.netlify.app](https://interview-buddy.netlify.app/)
+# Website Link - https://opennotes-hub.vercel.app/
 
 Open Notes Hub is an open-source, student-focused web platform that helps learners easily access study notes and previous year questions (PYQs) in one centralized place.
 The project is built with simplicity in mind and encourages students to learn, share, and contribute together.
