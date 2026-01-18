@@ -17,18 +17,22 @@
     <header class="header">
         <div class="container header-content">
 <a href="index.html" class="logo">
-  <img src="favicon.ico" alt="Site Logo" class="logo-img">
-  <span class="logo-text">OpenNotes Hub</span>
+    <div class="logo-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+        </svg>
+    </div>
+    <span class="logo-text">OpenNotes Hub</span>
 </a>
 
-            
             <nav class="nav-desktop">
                 <a href="notes.html" class="nav-link">Notes</a>
                 <a href="pyqs.html" class="nav-link">PYQs</a>
                 <a href="contributors.html" class="nav-link">Contributors</a>
                 <a href="contribute.html" class="nav-link">Contribute</a>
             </nav>
-            
+
             <div class="header-actions">
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                     <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -53,7 +57,7 @@
                     <span>GitHub</span>
                 </a>
             </div>
-            
+
             <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -62,7 +66,7 @@
                 </svg>
             </button>
         </div>
-        
+
         <nav class="nav-mobile" id="mobileNav">
             <a href="notes.html" class="nav-link">Notes</a>
             <a href="pyqs.html" class="nav-link">PYQs</a>
@@ -74,6 +78,7 @@
     <main>
         <!-- Hero Section -->
         <section class="hero">
+            <!-- Hero content -->
             <div class="hero-glow"></div>
             <div class="container hero-content">
                 <span class="hero-badge">
@@ -82,16 +87,16 @@
                     </svg>
                     Open Source & Free Forever
                 </span>
-                
+
                 <h1 class="hero-title">
                     Your Gateway to
                     <span class="gradient-text">Academic Excellence</span>
                 </h1>
-                
+
                 <p class="hero-description">
                     Access comprehensive study notes, previous year questions, and contribute to a growing community of learners. Built by students, for students.
                 </p>
-                
+
                 <div class="hero-buttons">
                     <a href="notes.html" class="btn btn-primary btn-lg">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -100,7 +105,7 @@
                         </svg>
                         Browse Notes
                     </a>
-                    <a href="pyqs.html" class="btn btn-secondary btn-lg">
+                    <a href="pyqs.html" class="btn btn-outline btn-lg">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                             <polyline points="14 2 14 8 20 8"></polyline>
@@ -119,7 +124,7 @@
                         Contribute
                     </a>
                 </div>
-                
+
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-value">500+</span>
@@ -148,7 +153,7 @@
                     <h2 class="section-title">Why Choose OpenNotes Hub?</h2>
                     <p class="section-description">Everything you need for academic success, completely free and open source.</p>
                 </div>
-                
+
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon blue">
@@ -160,7 +165,7 @@
                         <h3>Comprehensive Notes</h3>
                         <p>Well-structured study materials covering all subjects across multiple branches and semesters.</p>
                     </div>
-                    
+
                     <div class="feature-card">
                         <div class="feature-icon teal">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -171,11 +176,11 @@
                         <h3>Previous Year Questions</h3>
                         <p>Access PYQs organized by subject and year to prepare effectively for exams.</p>
                     </div>
-                    
+
                     <div class="feature-card">
                         <div class="feature-icon orange">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <path d="M17 21v-2a4 4 0 0 0-4-3.87"></path>
                                 <circle cx="9" cy="7" r="4"></circle>
                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
@@ -184,7 +189,7 @@
                         <h3>Community Driven</h3>
                         <p>Built by students, for students. Anyone can contribute and improve the content.</p>
                     </div>
-                    
+
                     <div class="feature-card">
                         <div class="feature-icon purple">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -195,7 +200,7 @@
                         <h3>Smart Search</h3>
                         <p>Quickly find what you need with powerful search and filtering capabilities.</p>
                     </div>
-                    
+
                     <div class="feature-card">
                         <div class="feature-icon green">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -205,7 +210,7 @@
                         <h3>Always Free</h3>
                         <p>No subscriptions, no hidden costs. Quality education should be accessible to everyone.</p>
                     </div>
-                    
+
                     <div class="feature-card">
                         <div class="feature-icon pink">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -227,9 +232,9 @@
                     <h2 class="section-title">Browse by Branch</h2>
                     <p class="section-description">Select your engineering branch to explore relevant study materials.</p>
                 </div>
-                
+
                 <div class="branches-grid">
-                    <a href="notes.html?branch=cse" class="branch-card">
+                    <a href="notes.html?branch=cse" class="branch-card" aria-label="Browse Computer Science notes">
                         <div class="branch-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="16 18 22 12 16 6"></polyline>
@@ -240,8 +245,8 @@
                         <p>CSE</p>
                         <span class="branch-count">8 Semesters • 45+ Subjects</span>
                     </a>
-                    
-                    <a href="notes.html?branch=ece" class="branch-card">
+
+                    <a href="notes.html?branch=ece" class="branch-card" aria-label="Browse Electronics & Communication notes">
                         <div class="branch-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
@@ -256,8 +261,8 @@
                         <p>ECE</p>
                         <span class="branch-count">8 Semesters • 40+ Subjects</span>
                     </a>
-                    
-                    <a href="notes.html?branch=me" class="branch-card">
+
+                    <a href="notes.html?branch=me" class="branch-card" aria-label="Browse Mechanical Engineering notes">
                         <div class="branch-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="3"></circle>
@@ -268,8 +273,8 @@
                         <p>ME</p>
                         <span class="branch-count">8 Semesters • 42+ Subjects</span>
                     </a>
-                    
-                    <a href="notes.html?branch=ee" class="branch-card">
+
+                    <a href="notes.html?branch=ee" class="branch-card" aria-label="Browse Electrical Engineering notes">
                         <div class="branch-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
@@ -290,7 +295,7 @@
                     <div class="cta-content">
                         <h2>Ready to Contribute?</h2>
                         <p>Join our community of contributors and help students worldwide. Share your notes, add PYQs, or improve existing content.</p>
-                        
+
                         <div class="cta-features">
                             <div class="cta-feature">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -311,7 +316,7 @@
                                 <span>Get credited for your work</span>
                             </div>
                         </div>
-                        
+
                         <a href="contribute.html" class="btn btn-accent btn-lg">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -319,7 +324,7 @@
                             Start Contributing
                         </a>
                     </div>
-                    
+
                     <div class="cta-types">
                         <h3>Types of Contributions</h3>
                         <div class="contribution-type">
@@ -381,28 +386,28 @@
                     </a>
                     <p>Free, open-source study materials for students worldwide. Built with love by the community.</p>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Resources</h4>
                     <a href="notes.html">Browse Notes</a>
                     <a href="pyqs.html">PYQs</a>
                     <a href="search.html">Search</a>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Community</h4>
                     <a href="contribute.html">Contribute</a>
                     <a href="contributors.html">Contributors</a>
                     <a href="https://github.com/RelaxItsAryan/Open-Notes-Hub.git" target="_blank">GitHub</a>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Legal</h4>
-                    <a href="#">MIT License</a>
-                    <a href="#">Code of Conduct</a>
+                    <a href="https://github.com/RelaxItsAryan/Open-Notes-Hub/blob/main/LICENSE" target="_blank">MIT License</a>
+                    <a href="https://github.com/RelaxItsAryan/Open-Notes-Hub/blob/main/CODE_OF_CONDUCT.md" target="_blank">Code of Conduct</a>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2025 OpenNotes Hub. Open source under MIT License.</p>
                 <p>Made by students, for students</p>
