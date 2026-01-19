@@ -38,6 +38,19 @@ img.logo-img {
     object-fit: contain;
     border-radius: 8px;
 }
+
+/* Logo icon image styling */
+.logo-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Section icon styling */
+.section-icon {
+    width: 48px;
+    margin-bottom: 0.5rem;
+}
+
 /* Dark Mode */
 .dark {
     --background: 222 47% 6%;
