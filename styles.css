@@ -1016,3 +1016,97 @@ section {
 .animate-delay-1 { animation-delay: 0.1s; }
 .animate-delay-2 { animation-delay: 0.2s; }
 .animate-delay-3 { animation-delay: 0.3s; }
+
+/* UI POLISH & CONSISTENCY FIXES (APPEND ONLY – SAFE CHANGES) */
+
+/* Global Typography Refinement  */
+h1, h2, h3, h4 {
+    letter-spacing: -0.02em;
+}
+
+p {
+    font-size: 0.95rem;
+}
+
+/*Section Header Consistency*/
+.section-header {
+    padding-bottom: 0.5rem;
+}
+
+.section-title {
+    line-height: 1.3;
+}
+
+.section-description {
+    line-height: 1.7;
+}
+
+/*Page Header Hierarchy*/
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-title {
+    line-height: 1.25;
+}
+
+/*Card Hover Polish*/
+.card,
+.feature-card,
+.branch-card,
+.contributor-card {
+    will-change: transform, box-shadow;
+}
+
+.card:hover,
+.feature-card:hover,
+.branch-card:hover {
+    box-shadow: var(--shadow-lg), 0 8px 30px hsl(var(--primary) / 0.12);
+}
+
+/*Button Interaction Feedback*/
+.btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+/*Navigation Visual Clarity*/
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: hsl(var(--primary));
+    transition: var(--transition);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+/*Footer Readability*/
+.footer-links a {
+    line-height: 1.6;
+}
+
+/*Mobile Spacing Improvements*/
+@media (max-width: 640px) {
+    .hero {
+        padding: 4.5rem 0;
+    }
+
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .cta-card {
+        padding: 2rem;
+    }
+}
